@@ -38,6 +38,30 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- EP2P Dependencies -->
+
+		<!-- Somnia for decentralized storage-->
+		<dependency>
+			<groupId>io.ep2p</groupId>
+			<artifactId>somnia</artifactId>
+			<version>0.6.4-RELEASE</version>
+		</dependency>
+
+		<!-- Websocket connections and reusing sockets -->
+		<dependency>
+			<groupId>io.ep2p</groupId>
+			<artifactId>row-reuse-starter</artifactId>
+			<version>1.1.0-RELEASE</version>
+		</dependency>
+
+		<!-- Encryption Core -->
+		<dependency>
+			<groupId>io.ep2p</groupId>
+			<artifactId>encryption-core</artifactId>
+			<version>1.0.0-RELEASE</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
