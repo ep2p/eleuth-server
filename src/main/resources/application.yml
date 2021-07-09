@@ -1,0 +1,5 @@
+somnia:
+  config:
+    base-package: io.ep2p.eleuthserver
+    decentralized:
+      minimum-distribution: 10
