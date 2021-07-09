@@ -3,3 +3,8 @@ somnia:
     base-package: io.ep2p.eleuthserver
     decentralized:
       minimum-distribution: 10
+row:
+  cs:
+    reuse: true
+  handler:
+    allow-multiple-sessions-for-single-user: false
