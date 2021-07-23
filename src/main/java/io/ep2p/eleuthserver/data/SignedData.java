@@ -14,7 +14,7 @@ import java.math.BigInteger;
 @Builder
 @Getter
 @Setter
-public class SignedData<D extends Serializable> {
+public class SignedData<D extends Serializable> implements Serializable {
     private D data;
     private String signature;
     private BigInteger key;
